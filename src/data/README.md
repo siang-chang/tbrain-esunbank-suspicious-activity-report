@@ -47,10 +47,22 @@
 | alert_date | 可疑活動態樣     |                      |             |                                                                            |
 |            | alert_key        | alert 主鍵           |             |                                                                            |
 |            | date             | 發生日期             | Categorical | 經過神秘轉換，數字序列有前後順序意義                                       |
+|            | set_name         | 資料集               | Categorical | train or valid                                                             |
 | y          | 審查結果         |                      |             |                                                                            |
 |            | alert_key        | alert 主鍵           |             |                                                                            |
 |            | sar_flag         | SAR 與否             | Categorical | （0 = 未報 SAR；1 = 有報 SAR）                                             |
+|            | set_name         | 資料集               | Categorical | train or valid                                                             |
 
-## public_train_x_dp_full_hashed
+## dp: public_train_x_dp_full_hashed
+
+借貸資料
 
 檔案大小超過 GitHub 限制，故拆分為 `public_train_x_dp_full_hashed_1.csv` 及 `public_train_x_dp_full_hashed_2.csv`
+
+## y: train_x_alert_date, train_y_answer
+
+可疑活動態樣與審查結果
+
+其中 train 資料再拆分為 train 及 valid，用於驗證模型效能
+
+由於資料有時間性，故拆分子集的時候依時間排序後再以 50:50 的比例拆分
