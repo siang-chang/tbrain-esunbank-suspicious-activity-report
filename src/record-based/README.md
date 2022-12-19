@@ -63,19 +63,15 @@ Model summary
 
 ccba, dp, remit 訓練時忘記加入各自的 `date` 欄位時:
 
-train RAP: 0.3284132841328413
-
-valid RAP: 0.004707523319675704
-
-submission RAP: 0.007017
+- train RAP: 0.3284132841328413
+- valid RAP: 0.004707523319675704
+- submission RAP: 0.007017
 
 補上 `date` 欄位後:
 
-train RAP: 0.03759239704329462
-
-valid RAP: 0.004884225759768451
-
-submission RAP: 0.011049
+- train RAP: 0.03759239704329462
+- valid RAP: 0.004884225759768451
+- submission RAP: 0.011049
 
 ### Dense-LSTM
 
@@ -102,16 +98,12 @@ Model summary
 
 ccba, dp, remit 訓練時忘記加入各自的 `date` 欄位時:
 
-train RAP: 0.03563563563563563
-
-valid RAP: 0.004969630038652678
-
-submission RAP: 0.017035
+- train RAP: 0.03563563563563563
+- valid RAP: 0.004969630038652678
+- submission RAP: 0.017035
 
 補上 `date` 欄位後:
 
-train RAP: 0.06336774652901389
-
-valid RAP: 0.0049126637554585155
-
-submission RAP: 0.007446
+- train RAP: 0.06336774652901389
+- valid RAP: 0.0049126637554585155
+- submission RAP: 0.007446
