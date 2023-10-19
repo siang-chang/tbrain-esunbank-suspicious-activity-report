@@ -2,7 +2,7 @@
 
 [玉山人工智慧挑戰賽 - 你說可疑不可疑？疑似洗錢交易預測](https://tbrain.trendmicro.com.tw/Competitions/Details/24)
 
-這個競賽與 [@Tsao666](https://github.com/Tsao666) 及 [@Tianming8585](https://github.com/Tianming8585) 共同參賽，我們的最終排名為 93/122
+這個競賽與 [@Tsao666](https://github.com/Tsao666) 及 [@Tianming8585](https://github.com/Tianming8585) 共同參賽，我們的最終排名為 Public 45% (126/278) 及 Private 75% (93/122)
 
 ## 簡介
 
